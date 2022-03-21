@@ -5,9 +5,9 @@ import (
 	"time"
 
 	"github.com/golang/mock/gomock"
+	mock_broker "github.com/mateustudeia/payment-gateway/adapter/broker/mock"
 	"github.com/mateustudeia/payment-gateway/domain/entity"
-	mock_broker "github.com/mateustudeia/payment_gateway/adapter/broker/mock"
-	mock_repository "github.com/mateustudeia/payment_gateway/domain/repository/mock"
+	mock_repository "github.com/mateustudeia/payment-gateway/domain/repository/mock"
 	"github.com/stretchr/testify/assert"
 )
 
