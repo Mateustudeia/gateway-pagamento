@@ -4,8 +4,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/codeedu/imersao5-gateway/adapter/repository/fixture"
-	"github.com/codeedu/imersao5-gateway/domain/entity"
+	"github.com/mateustudeia/payment-gateway/adapter/repository/fixture"
+	"github.com/mateustudeia/payment-gateway/domain/entity"
 	"github.com/stretchr/testify/assert"
 )
 
